@@ -9,6 +9,6 @@ public class SimpleServletTest {
 
     @Test
     public void testGetContent() throws Exception {
-        Assert.assertEquals("SimpleServlet Executed1", new SimpleServlet().getContent());
+        Assert.assertEquals("SimpleServlet Executed", new SimpleServlet().getContent());
     }
 }
